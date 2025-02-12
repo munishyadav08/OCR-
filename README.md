@@ -66,9 +66,7 @@ python store_data.py
 -Verify the data in the database using any database management tool.
 -Modify the database schema (if necessary) to match different data structures.
 
-### 🖼️  Image Sample_form 
 
-![Sample_form](https://github.com/user-attachments/assets/f832d2b8-7d69-4ace-9d87-bf53913f8e72)
 
 
 
