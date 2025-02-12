@@ -31,3 +31,44 @@ Follow these steps to set up the project:
    ```bash
    git clone https://github.com/munishyadav08/OCR-.git
    cd OCR-
+
+2. **Install dependencies**:
+'''pip install -r requirements.txt
+
+3.**Install Easy-OCR**:
+pip install easyocr
+
+### 🚀 Usage
+
+To use this OCR script, follow these steps:
+
+Run the OCR script on an image:
+
+python ocr_script.py --image sample_form.jpg
+
+-The script will process the image and output the extracted text in JSON format.
+
+-Modify the script as needed to process different types of documents.
+
+### 🗄️ Database Storage
+
+This project supports storing extracted OCR data in a database. Follow these steps:
+
+Configure the database connection:
+
+-Open the config.py file.
+-Update the database credentials (if req) .
+
+Run the database storage script:
+
+python store_data.py
+
+-Verify the data in the database using any database management tool.
+-Modify the database schema (if necessary) to match different data structures.
+
+### 🖼️  Image Sample_form 
+
+![Sample_form](https://github.com/user-attachments/assets/f832d2b8-7d69-4ace-9d87-bf53913f8e72)
+
+
+
